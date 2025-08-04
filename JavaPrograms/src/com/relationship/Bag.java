@@ -13,7 +13,7 @@ public class Bag {
 	}
 	
 	public void addBook(String name,String author) {
-		b = new Book(name,author);
+		b = new Book(name,author);//(Aggregation)
 	}
 	
 
