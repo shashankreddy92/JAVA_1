@@ -10,7 +10,7 @@ public class Sample {
 		} 
 		catch (NullPointerException e)
 		{
-			e.getMessage();
+			e.printStackTrace();
 		}
 		System.out.println("End");
 	}
