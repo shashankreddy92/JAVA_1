@@ -2,16 +2,16 @@ package com.relationship;
 
 public class Laptop extends Device_Hierarchical_Inheritance {
 
-	int ssid;
+	int ssd;
 	
-	Laptop(String brand, double price, int ssid) {
+	Laptop(String brand, double price, int ssd) {
 		super(brand, price);
-		this.ssid = ssid;
+		this.ssd = ssd;
 	}
 	
 	public void printLaptopDetails() {
 		printDeviceDetails();
-		System.out.println("SSID: "+ ssid);
+		System.out.println("SSD: "+ ssd);
 	}
 
 }
